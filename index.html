@@ -7,6 +7,17 @@
       src="https://kit.fontawesome.com/878d9d86f6.js"
       crossorigin="anonymous"
     ></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+      integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+      crossorigin=""
+    />
+    <script
+      src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+      integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+      crossorigin=""
+    ></script>
     <link rel="stylesheet" href="fonts/stylesheet.css" />
 
     <link rel="stylesheet" href="css/styles.css" />
@@ -33,22 +44,26 @@
       <h2>Quien es Sebastian UCDM?</h2>
       <div class="contenido-sebastian contenedor seccion">
         <div class="imagen">
-          <img src="img/seba-lentes.png" alt="foto sebastian lentes" />
+          <img src="img/seba-walk.jpg" alt="" />
         </div>
 
         <div class="texto-sebastian">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem eum
-            eius consequatur, itaque nemo asperiores nisi, dolorum assumenda
-            quaerat quae deserunt tempora, accusamus modi fugiat dolorem
-            repellendus? <span> Debitis</span>, reiciendis ex.
+            Sebastián UCDM tiene como misión expandir las enseñanzas de Un Curso
+            de Milagros y llevar este al lugar donde le corresponde sacándolo de
+            todas las estanterías de la espiritualidad, el autoconocimiento y
+            las disciplinas de autoayuda que se conocen hasta ahora. Un Curso de
+            Milagros se posiciona y se eleva por sí mismo, como algo muy
+            diferente de las antes citadas.
           </p>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem
-            corrupti nobis, ex a, doloremque aspernatur et ad nisi facere sit
-            minus sint maiores dolor, perferendis voluptate consectetur!
-            Aperiam, <span> commodi atque porro doloribus</span> ab soluta vel
-            iste aliquam reiciendis error.
+            Tras haberlo estudiado por varios años, haber profundizado en sus
+            enseñanzas y haberlas llevado a la práctica, tomamos este compromiso
+            de enseñarlo para aprenderlo porque así lo afirma el curso, y fue
+            desde sus comienzos un emprendimiento de colaboración mutua, y para
+            nosotros, sus estudiantes, algo que realmente funciona sin margen de
+            error. Nuestra meta, y en total congruencia con los postulados del
+            curso, es la paz.
           </p>
         </div>
       </div>
@@ -57,36 +72,41 @@
     <!-- ---------------------------------------- -->
 
     <section class="preguntas">
-      <div class="contenedor seccion">
-        <div class="contenido-preguntas">
-          <div class="texto-izq">
-            <h3>Mi trayectoria?</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
-              fugit voluptate nobis ducimus dolores consequuntur eaque debitis
-              labore aspernatur quos quibusdam non vitae sit officia, possimus
-              suscipit excepturi soluta cupiditate?
-            </p>
-          </div>
-          <div class="texto-der">
-            <h3>Que es la felicidad?</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-              vitae fuga molestiae aperiam unde et accusantium ut architecto
-              expedita. Repellendus ipsa nesciunt tempora rerum, assumenda
-              aliquid sint! Cumque, consectetur eveniet?
-            </p>
-          </div>
-          <div class="texto-izq">
-            <h3>El amor, en el mundo?</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus, animi voluptatem itaque quae culpa voluptatum
-              quos, quis a recusandae voluptates ducimus maxime numquam?
-              Obcaecati, quam beatae. Facere, fugiat tempore, esse rerum illo
-              porro, tenetur obcaecati perspiciatis ea cupiditate voluptas
-              earum?
-            </p>
+      <div class="contenedor-preguntas-oscuro">
+        <div class="contenedor seccion">
+          <div class="contenido-preguntas">
+            <div class="texto-izq">
+              <div class="contenedor-texto-preguntas">
+                <h3>¿Qué significa?</h3>
+                <p>
+                  Un Curso de Milagros se podría entender de la siguiente
+                  manera: curso = camino, milagro = corrección. Entonces, UCDM
+                  sería un camino hacia la corrección de la mente.
+                </p>
+              </div>
+            </div>
+            <div class="texto-der">
+              <div class="contenedor-texto-preguntas">
+                <h3>¿Qué es al auténtico Perdón?</h3>
+                <p>
+                  El auténtico Perdón no perdona porque no ve error. El Perdón
+                  proporciona el entendimiento de que lo que se pensaba que se
+                  tenía que perdonar era una interpretación errónea, por lo cual
+                  se convierte en innecesario.
+                </p>
+              </div>
+            </div>
+            <div class="texto-izq">
+              <div class="contenedor-texto-preguntas">
+                <h3>Grupos de estudio</h3>
+                <p>
+                  Espacios de estudio del curso donde acompañamos a los
+                  estudiantes para que optimicen su tiempo y la etapa del
+                  entendimiento se acelere mediante el aporte de aclaraciones
+                  basadas en nuestra experiencia.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -202,15 +222,15 @@
             Invitados
           </li>
           <li>
-            <p class="numero">15</p>
+            <p class="numero">12</p>
             Talleres
           </li>
           <li>
-            <p class="numero">3</p>
+            <p class="numero">5</p>
             Dias
           </li>
           <li>
-            <p class="numero">9</p>
+            <p class="numero">20</p>
             Conferencias
           </li>
         </ul>
@@ -267,11 +287,7 @@
 
     <!-- ---------------------------------------- -->
 
-    <section class="galeria">
-      <div class="contenedor seccion">
-        <h2>Seccion en construccion</h2>
-      </div>
-    </section>
+    <section id="mapa" class="mapa"></section>
 
     <!-- ---------------------------------------- -->
 
@@ -344,19 +360,19 @@
       <div class="cuenta-regresiva contenedor">
         <ul class="lista-cuenta">
           <li>
-            <p class="numero">80</p>
+            <p class="numero"></p>
             dias
           </li>
           <li>
-            <p class="numero">15</p>
+            <p class="numero"></p>
             horas
           </li>
           <li>
-            <p class="numero">5</p>
+            <p class="numero"></p>
             minutos
           </li>
           <li>
-            <p class="numero">30</p>
+            <p class="numero"></p>
             segundos
           </li>
         </ul>
@@ -415,5 +431,11 @@
 
     <!-- ---------------------------------------- -->
     <section></section>
+
+    <!<!-- SCRIPTS ---------------------------------------- -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
