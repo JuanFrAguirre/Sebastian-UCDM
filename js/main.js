@@ -2,7 +2,7 @@
 
 $(function () {
   "use strict";
-  // comienzo jQuery--------------------------
+  // Comienzo jQuery--------------------------
 
   // Info evento------------------------------
 
@@ -11,11 +11,9 @@ $(function () {
   $(".resumen-evento li:nth-child(3) p").animateNumber({ number: 3 }, 2000);
   $(".resumen-evento li:nth-child(4) p").animateNumber({ number: 10 }, 2000);
 
-  // mapa-------------------------------------
+  // Mapa-------------------------------------
 
-  // let mymap = L.map("mapa").setView([51.505, -0.09], 13);
-
-  var map = L.map("mapa").setView([-31.416752, -64.183577], 17);
+  let map = L.map("mapa").setView([-31.416752, -64.183577], 17);
 
   L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
     attribution:
@@ -29,6 +27,15 @@ $(function () {
   // .bindTooltip("Un Tooltip")
   // .openTooltip();
 
+  // Countdown--------------------------------
+
+  $(".cuenta-regresiva").countdown("2020/05/19 00:00:00", function (e) {
+    $("#dias").html(e.strftime("%-D"));
+    $("#horas").html(e.strftime("%-H"));
+    $("#minutos").html(e.strftime("%-M"));
+    $("#segundos").html(e.strftime("%-S"));
+  });
+
   // -----------------------------------------
-  // fin jQuery-------------------------------
+  // Fin jQuery-------------------------------
 });

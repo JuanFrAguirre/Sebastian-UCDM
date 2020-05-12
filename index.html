@@ -287,7 +287,10 @@
 
     <!-- ---------------------------------------- -->
 
-    <section id="mapa" class="mapa"></section>
+    <section class="contenedor mapa">
+      <h2>¿Dónde?</h2>
+      <div id="mapa"></div>
+    </section>
 
     <!-- ---------------------------------------- -->
 
@@ -345,7 +348,7 @@
 
     <div class="newsletter parallax">
       <div class="contenido contenedor">
-        <p>Registrate al newsletter:</p>
+        <p>Registrate al newsletter</p>
         <h3>sebastianucdm.com</h3>
         <a href="#" class="btn transparente">Registro</a>
       </div>
@@ -360,19 +363,19 @@
       <div class="cuenta-regresiva contenedor">
         <ul class="lista-cuenta">
           <li>
-            <p class="numero"></p>
+            <p id="dias" class="numero"></p>
             dias
           </li>
           <li>
-            <p class="numero"></p>
+            <p id="horas" class="numero"></p>
             horas
           </li>
           <li>
-            <p class="numero"></p>
+            <p id="minutos" class="numero"></p>
             minutos
           </li>
           <li>
-            <p class="numero"></p>
+            <p id="segundos" class="numero"></p>
             segundos
           </li>
         </ul>
@@ -397,19 +400,25 @@
           <h3>Ultimos <span>tweets</span></h3>
           <ul>
             <li>
-              Integer ultricies justo nec ipsum finibus, eu interdum quam
-              vulputate. <span>#Pellentesque</span> nec justo non est eleifend
-              pulvinar.
+              <p>
+                Integer ultricies justo nec ipsum finibus, eu interdum quam
+                vulputate. <span>#Pellentesque</span> nec justo non est eleifend
+                pulvinar.
+              </p>
             </li>
             <li>
-              Integer ultricies <span>#justo</span> nec ipsum finibus, eu
-              interdum quam vulputate. Pellentesque nec justo non est eleifend
-              pulvinar.
+              <p>
+                Integer ultricies <span>#justo</span> nec ipsum finibus, eu
+                interdum quam vulputate. Pellentesque nec justo non est eleifend
+                pulvinar.
+              </p>
             </li>
             <li>
-              Integer ultricies justo nec ipsum finibus, eu interdum quam
-              vulputate. <span>#Pellentesque nec @justo</span> non est eleifend
-              pulvinar.
+              <p>
+                Integer ultricies justo nec ipsum finibus, eu interdum quam
+                vulputate. <span>#Pellentesque nec @justo</span> non est
+                eleifend pulvinar.
+              </p>
             </li>
           </ul>
         </div>
@@ -436,6 +445,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
