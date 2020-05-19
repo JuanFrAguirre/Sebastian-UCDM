@@ -29,7 +29,7 @@ $(function () {
 
   // Countdown--------------------------------
 
-  $(".cuenta-regresiva").countdown("2020/05/19 00:00:00", function (e) {
+  $(".cuenta-regresiva").countdown("2020/09/19 00:00:00", function (e) {
     $("#dias").html(e.strftime("%-D"));
     $("#horas").html(e.strftime("%-H"));
     $("#minutos").html(e.strftime("%-M"));
